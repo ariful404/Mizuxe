@@ -1,0 +1,85 @@
+body{
+  margin-top: 90px;
+}
+.navbar{
+  box-shadow: 2px 2px 5px #3292a6;
+  background: rgb(255, 255, 255, 0.9);
+}
+.nav-link{
+  color: #000;
+  font-size: 1.4rem;
+}
+.nav-item{
+  padding-left: 20px;
+}
+.nav-item:hover{
+  colore: #3292a6;
+}
+
+/*SHOWCASE*/
+#showcase{
+  background-image: url('../img/mountains.jpg');
+  min-height: 600px;
+  position: relative;
+
+}
+.primary-overlay{
+  background: rgba(50, 146, 156, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+/* BOXES */
+#boxes .card{
+  border-radius: 0px;
+}
+
+/* MEET THE AUTHORS */
+
+#meettheauthors img{
+    margin-top: -50px;
+}
+#meettheauthors .card:hover{
+  background: #3292a6;
+  color: #fff;
+}
+#meettheauthors .fa{
+  font-size: 30px;
+}
+#meettheauthors .card:hover .fa{
+  color: #fff;
+}
+/* CONTACT SECTION */
+#contact input,
+#contact .input-group-text{
+  border-radius: 0;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px){
+  #showcase h1{
+    font-size: 50px;
+  }
+  #showcase{
+    background-image: url('../img/mountains.jpg');
+    min-height: 400px;
+    position: relative;
+
+  }
+  .primary-overlay{
+    background: rgba(50, 146, 156, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  #showcase .header-left{
+    padding-top: 50px;
+  }
+
+}
+@media (max-width: 575px){
+  #showcase h1{
+    font-size: 60px;
+  }
+}
